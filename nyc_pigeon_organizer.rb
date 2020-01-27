@@ -11,4 +11,6 @@ def nyc_pigeon_organizer(data)
         if !result[name][key]
           result[name][key] = []
         end
+        
+        result[name][key].push()
 end
