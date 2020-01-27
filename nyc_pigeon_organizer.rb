@@ -8,5 +8,7 @@ def nyc_pigeon_organizer(data)
           result[name] = {}
         end
         
-        if 
+        if !result[name][key]
+          result[name][key] = []
+        end
 end
