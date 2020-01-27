@@ -12,5 +12,8 @@ def nyc_pigeon_organizer(data)
           result[name][key] = []
         end
         
-        result[name][key].push()
+        result[name][key].push(sub_value.to_s())
+      end
+    end
+  end
 end
